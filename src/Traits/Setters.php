@@ -61,4 +61,11 @@ trait Setters
 
         return $this;
     }
+
+    public function subtotalBy($key)
+    {
+        $this->subtotal_by = $key;
+
+        return $this;
+    }
 }
