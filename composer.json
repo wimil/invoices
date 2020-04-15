@@ -1,0 +1,38 @@
+{
+    "name": "wimil/invoices",
+    "description": "generate Invoices for laravel",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "Laravel",
+        "Invoices",
+        "Generate",
+        "Create",
+        "Open Source",
+        "Customers",
+        "PDF"
+    ],
+    "authors": [
+        {
+            "name": "Andy Reynaldo",
+            "email": "rldev25@gmail.com"
+        }
+    ],
+    "require": {
+        "barryvdh/laravel-dompdf": "^0.8.5",
+        "illuminate/support": "^5.5|^6|^7",
+        "illuminate/http": "^5.5|^6|^7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wimil\\Invoices\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Wimil\\Invoices\\Provider"
+            ]
+        }
+    }
+}
