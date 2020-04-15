@@ -7,7 +7,7 @@ streamed in the browser. It's highly customizable and you can modify the whole o
 ```bahs
 composer require wimil/invoices
 ```
-## Publish config
+## Publish
 
 ### Config
 ```bash
