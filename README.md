@@ -3,17 +3,25 @@
 Invoices is a Laravel library that generates a PDF invoice for your customers. The PDF can be either downloaded or
 streamed in the browser. It's highly customizable and you can modify the whole output view as well.
 
-### Install
+## Install
 ```bahs
 composer require wimil/invoices
 ```
-### Publish config
+## Publish config
 
+### Config
 ```bash
-$ php artisan vendor:publish --tag=invoices.config
-php artisan vendor:publish --tag=invoices.views
-php artisan vendor:publish --tag=invoices.translations
+php artisan vendor:publish --tag=invoices.config
+```
 
+### Views
+```bash
+php artisan vendor:publish --tag=invoices.views
+```
+
+### Translations
+```bash
+php artisan vendor:publish --tag=invoices.translations
 ```
 
 
