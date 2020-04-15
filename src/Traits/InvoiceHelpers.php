@@ -100,10 +100,10 @@ trait InvoiceHelpers
         $response['taxes'] = $this->taxes();
         $response['total'] = $this->total();
 
-        $response['invoice'] = [
+        /*$response['invoice'] = [
             'show' => null,
             "download" => null,
-        ];
+        ];*/
 
         return $response;
     }
